@@ -1,0 +1,9 @@
+.btn {
+    background-color: $colorPrincipal ;
+    transition: all 400ms;
+    &:hover {
+        transform: scale(1.05);
+        color: $colorContrastePrincipal !important;
+        background-color: $colorSecundario;
+  }
+}

@@ -1,0 +1,29 @@
+.navbar {
+    background-color: white;
+    .container-fluid {
+        .collapse {
+            justify-content: center;
+            ul {
+                align-items: center;
+            }
+        }
+        
+    }
+
+}
+
+
+.navbar-logo {
+    width:100px;
+    height:80px;
+    margin-right: 0;
+}
+.wave-separator {
+    height: 9px;
+    width: 100%;
+    background-color: transparent;
+    background: url(/images/bg-header.png) repeat-x bottom;
+    position: absolute;
+    bottom: -9px;
+    z-index: 25;
+}

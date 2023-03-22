@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Caramel&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::-moz-selection {
+  background-color: #ffbfbf;
+  color: #F6F3F5;
+}
+*::selection {
+  background-color: #ffbfbf;
+  color: #F6F3F5;
+}
+
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  font-family: "Caramel", cursive;
+  font-size: 3rem;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
+a:link:hover, a:visited:hover, a:active:hover {
+  transform: scale(1.05);
+  color: #fa7f7f;
+}
+
+.centrar-texto {
+  text-align: center;
+  align-items: center;
+}
+
+input[type=checkbox] {
+  background-color: #ffbfbf;
+  cursor: pointer;
+}
+input[type=checkbox]:hover {
+  background-color: #fa7f7f;
+}
+input[type=checkbox]:checked {
+  background-color: #fa7f7f;
+}
+
+body {
+  background-color: white;
+}
+
+main {
+  background-color: #F8F9F9;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+header {
+  background-color: #ffbfbf;
+}
+header .container .row .col-md-4 {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-around;
+}
+header .container .row .col-md-4 a {
+  color: #ffffff;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+header .container .row .col-md-4 a:hover {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: white;
+}
+.navbar .container-fluid .collapse {
+  justify-content: center;
+}
+.navbar .container-fluid .collapse ul {
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 100px;
+  height: 80px;
+  margin-right: 0;
+}
+
+.wave-separator {
+  height: 9px;
+  width: 100%;
+  background-color: transparent;
+  background: url(/images/bg-header.png) repeat-x bottom;
+  position: absolute;
+  bottom: -9px;
+  z-index: 25;
+}
+
+.main-carousel {
+  padding-top: 0;
+}
+
+.a-contacto {
+  color: black;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+}
+
+.tm-table {
+  display: table;
+  margin: auto;
+  width: 137px;
+  position: relative;
+  padding: 25px 0;
+}
+.tm-table .line {
+  width: 50px;
+  border-top: 1px solid #ddd;
+}
+.tm-table img {
+  margin: -10px 10px;
+  position: absolute;
+  width: 23px;
+}
+
+div .card {
+  width: 100%;
+  transition: all 400ms;
+  border-color: #ffbfbf;
+  border-width: 0.1rem;
+  margin-top: 1rem;
+}
+div .card:hover {
+  transform: scale(1.15);
+}
+
+.btn {
+  background-color: #ffbfbf;
+  transition: all 400ms;
+}
+.btn:hover {
+  transform: scale(1.05);
+  color: #ffffff !important;
+  background-color: #fa7f7f;
+}
+
+footer {
+  background-color: #ffbfbf;
+}
+footer .container .row .col-md-4 {
+  display: flex;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  justify-content: space-around;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+footer .container .row .col-md-4 p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+footer .container .row .col-md-4 p a {
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* CSS Tablet */
+@media screen and (max-width: 1023px) {
+  /* Agregar CSS para cambiar cuando baje desde 1023 */
+  .nav-item:nth-child(3) {
+    order: -1;
+  }
+}
+/* CSS Celular */
+@media screen and (max-width: 767px) {
+  /* Agregar CSS para cambiar cuando baje desde 767 */
+  div .card {
+    transition: all 300ms;
+  }
+  div .card:hover {
+    transform: scale(1.05);
+  }
+}/*# sourceMappingURL=estilos.css.map */

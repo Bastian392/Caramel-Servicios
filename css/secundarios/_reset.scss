@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    &::selection {
+        background-color: $colorPrincipal;
+        color: #F6F3F5;
+    }
+}
+
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-family: 'Caramel', cursive;
+    font-size: 3rem;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+        &:hover {
+            transform: scale(1.05);
+            color: $colorSecundario;
+      }
+}
+
+.centrar-texto {
+    text-align: center;
+    align-items: center;
+  }
+
+input[type="checkbox"] {
+    background-color: $colorPrincipal;
+    cursor: pointer;
+    &:hover {
+        background-color: $colorSecundario;
+    }
+    &:checked {
+        background-color: $colorSecundario;
+    }
+
+}

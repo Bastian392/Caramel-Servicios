@@ -1,0 +1,10 @@
+div .card {
+    width: 100%;
+    transition: all 400ms;
+    border-color: $colorPrincipal;
+    border-width: 0.1rem;
+    margin-top: 1rem;
+    &:hover {
+        transform: scale(1.15);
+    }
+  }

@@ -1,0 +1,21 @@
+ /* CSS Tablet */
+ @media screen and (max-width:1023px) {
+    /* Agregar CSS para cambiar cuando baje desde 1023 */
+    .nav-item {
+      &:nth-child(3) {
+          order: -1;
+      }
+  
+  }
+  }
+
+  /* CSS Celular */
+  @media screen and (max-width:767px) {
+    /* Agregar CSS para cambiar cuando baje desde 767 */
+    div .card {
+      transition: all 300ms;
+      &:hover {
+          transform: scale(1.05);
+      }
+    }
+  }
